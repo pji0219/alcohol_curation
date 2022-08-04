@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+}
+.wrap .inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.wrap .inner .logo {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+}
+.wrap .inner .logo img {
+  width: 50px;
+  height: 50px;
+}
+.wrap .inner header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: pink;
+  z-index: 3;
+  transition: 1s;
+}
+.wrap .inner header .menu {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.wrap .inner header .menu li {
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.wrap .inner header .menu > .menu_bar {
+  position: absolute;
+  right: 0;
+}
+.wrap .inner .tradition_img {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+}
+.wrap .inner .tradition_alcohol {
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: skyblue;
+}
+
+/*# sourceMappingURL=menu1_tradition.css.map */

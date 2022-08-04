@@ -1,0 +1,93 @@
+@import 'reset';
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+
+  .inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .logo {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      z-index: 4;
+
+      width: 50px;
+      height: 50px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 120px;
+      background-color: pink;
+      z-index: 3;
+      transition: 1s;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+
+      .menu {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        li {
+          padding-right: 50px;
+          padding-top: 50px;
+        }
+
+        > .menu_bar {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+
+    .tradition_img {
+      width: 35%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: orange;
+
+      div {
+      }
+    }
+
+    .tradition_alcohol {
+      width: 65%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: skyblue;
+
+      .tradition_alcohol__list {
+        li {
+          .img {
+          }
+
+          .text {
+            h3 {
+            }
+
+            span {
+            }
+
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
